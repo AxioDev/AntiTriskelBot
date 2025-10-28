@@ -1,0 +1,69 @@
+{
+  "name": "libre-antenne-bot",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/AxioDev/libre-antenne-bot#readme",
+  "bugs": {
+    "url": "https://github.com/AxioDev/libre-antenne-bot/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AxioDev/libre-antenne-bot.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node tests/wallet.test.js",
+    "start": "node src/index.js",
+    "postupdate": "node scripts/update_version.js"
+  },
+  "optionalDependencies": {
+    "@discordjs/opus": "^0.10.0"
+  },
+  "dependencies": {
+    "@dank074/discord-video-stream": "^5.0.1",
+    "@discordjs/voice": "^0.18.0",
+    "@napi-rs/canvas": "^0.1.70",
+    "@railway/cli": "^4.5.0",
+    "chart.js": "^4.5.0",
+    "chartjs-chart-matrix": "^3.0.0",
+    "chartjs-node-canvas": "^5.0.0",
+    "chartjs-plugin-datalabels": "^2.2.0",
+    "chroma-js": "^3.1.2",
+    "d3-cloud": "^1.2.7",
+    "discord.js": "^13.17.0",
+    "discord.js-selfbot-v13": "^3.6.1",
+    "dotenv": "^16.5.0",
+    "emoji-regex": "^10.4.0",
+    "express": "^4.19.2",
+    "fast-xml-parser": "^5.2.5",
+    "ffmpeg-static": "^5.2.0",
+    "gif-encoder-2": "^1.0.5",
+    "gifencoder": "^2.0.1",
+    "gifuct-js": "^2.1.2",
+    "google-tts-api": "^2.0.2",
+    "humanize-duration": "^3.32.2",
+    "luxon": "^3.6.1",
+    "moment-timezone": "^0.5.48",
+    "node-fetch": "^2.7.0",
+    "openai": "^4.103.0",
+    "opusscript": "^0.0.8",
+    "pg": "^8.15.6",
+    "play-dl": "^1.9.7",
+    "prism-media": "^1.3.5",
+    "puppeteer": "^24.9.0",
+    "puppeteer-core": "^24.9.0",
+    "quickchart-js": "^3.1.3",
+    "stopword": "^3.1.4",
+    "stream": "^0.0.3",
+    "uuid": "^11.1.0",
+    "winston": "^3.17.0",
+    "wordcloud": "^1.2.3",
+    "ws": "^8.18.2"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
